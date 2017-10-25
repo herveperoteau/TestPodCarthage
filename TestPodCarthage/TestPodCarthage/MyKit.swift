@@ -9,7 +9,11 @@
 import Foundation
 
 public class MyKit {
-    public func toto() {
+  
+  public init() {
+  }
+  
+  public func toto() {
         print("toto ok")
     }
 }
