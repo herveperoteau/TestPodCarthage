@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		099E5B6C1FA0F76F00A85CD9 /* TestPodCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 099E5B6A1FA0F76F00A85CD9 /* TestPodCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		099E5B731FA0F7FC00A85CD9 /* MyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099E5B721FA0F7FC00A85CD9 /* MyKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		099E5B671FA0F76F00A85CD9 /* TestPodCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestPodCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		099E5B6A1FA0F76F00A85CD9 /* TestPodCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPodCarthage.h; sourceTree = "<group>"; };
 		099E5B6B1FA0F76F00A85CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099E5B721FA0F7FC00A85CD9 /* MyKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				099E5B6A1FA0F76F00A85CD9 /* TestPodCarthage.h */,
 				099E5B6B1FA0F76F00A85CD9 /* Info.plist */,
+				099E5B721FA0F7FC00A85CD9 /* MyKit.swift */,
 			);
 			path = TestPodCarthage;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					099E5B661FA0F76F00A85CD9 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099E5B731FA0F7FC00A85CD9 /* MyKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 		099E5B701FA0F76F00A85CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.peroteau.herve.TestPodCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +281,7 @@
 		099E5B711FA0F76F00A85CD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
