@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'TestPodCarthage'
-  s.version = '1.0.2'
+  s.version = '1.0.3'
   s.license = 'MIT'
   s.summary = 'Test Kit compatible with cocoapods & carthage'
   s.homepage = 'https://github.com/herveperoteau/TestPodCarthage'
@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TestPodCarthage/*.swift'
+  s.source_files = 'TestPodCarthage/TestPodCarthage/*.swift'
 end
