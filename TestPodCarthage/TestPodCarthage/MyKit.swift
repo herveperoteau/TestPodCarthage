@@ -14,6 +14,6 @@ public class MyKit {
   }
   
   public func toto() {
-        print("toto ok")
+        print("toto ok new build")
     }
 }
